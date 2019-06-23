@@ -6,14 +6,16 @@
 
     android:id="@android:id/text1"
     style="?android:attr/spinnerDropDownItemStyle"
-    android:singleline = "true"
+
+    android:ellipsize="marquee"
     android:text="@string/label_error_text"
     android:textColor="@color/black"
     android:textSize="30sp"
     android:background="@drawable/color_selector"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    />
+
+    android:maxLines="1"/>
 
 
 
